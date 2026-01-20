@@ -14,11 +14,31 @@ Files (refactored):
 - `generate_fake_avro.py` — write Avro data to `data/fake_data.avro` (requires `fastavro`)
 - `generate_fake_sql.py` — write SQL file with CREATE/INSERT statements to `data/fake_data.sql`
 
-Install dependencies:
+Setup and install
+-----------------
+
+It's recommended to create an isolated virtual environment before installing dependencies.
+
+macOS / Linux (bash/zsh):
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
+
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+If you use `pyenv` to manage Python versions, ensure the desired Python is selected before creating the venv (for example `pyenv shell 3.11.9`).
+
 
 Run an example:
 

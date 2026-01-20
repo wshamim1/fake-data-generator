@@ -21,12 +21,37 @@ Why Use Faker?
 - **Diverse Data Scenarios:** With many providers and locales, Faker helps test a wide range of input scenarios.
 - **Demonstration and Prototyping:** Quickly populate demos and prototypes with realistic-looking data.
 
+
 Installation
 ------------
 
 Install Faker with pip:
 
 pip install faker
+
+Setup (recommended)
+-------------------
+
+Create and activate a virtual environment, then install dependencies from `requirements.txt` if you want to run the example scripts in this repository.
+
+macOS / Linux (bash/zsh):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
 
 Examples and Scripts
 --------------------
