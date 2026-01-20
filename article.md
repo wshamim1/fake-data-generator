@@ -52,6 +52,16 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
+Get the code
+------------
+
+Clone this repository locally:
+
+```bash
+git clone https://github.com/WshamimGit/fake-data-generator.git
+cd fake-data-generator
+```
+
 
 Examples and Scripts
 --------------------

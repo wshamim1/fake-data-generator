@@ -2,6 +2,16 @@
 
 This repository provides small utilities to generate fake datasets (CSV, JSON, Parquet, XML) using Faker.
 
+Get the code
+--------
+
+Clone this repository locally:
+
+```bash
+git clone https://github.com/WshamimGit/fake-data-generator.git
+cd fake-data-generator
+```
+
 Files (refactored):
 
 - `generate_fake_csv.py` — write CSV data to `data/fake_data.csv`
